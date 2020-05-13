@@ -1,0 +1,148 @@
+body{
+    padding: 100;
+    margin-top: 40px;
+    margin-left: 8%;
+    margin-right: 8%; 
+    margin-bottom: 0%; 
+}
+header{
+    margin-top: 3%; 
+}
+.icon{
+    display: flex; 
+    flex-direction: row;  
+    margin-left: -10%;
+    width: 20%;
+    text-align: left;
+
+}
+.codepen{
+    display: flex;
+    flex-direction: row;
+    justify-self: end; 
+    margin-left: -20%;
+    width: 20%;
+    text-align: left;   
+    justify-content: space-between; 
+}
+
+.mywork{
+    padding-top: 15%; 
+    font-size: 90%; 
+}
+
+ul li{
+    list-style-type: none;
+}
+ul{
+    padding: 0px; 
+}
+.skills{
+    display: flex; 
+    flex-direction: column; 
+    margin: 0px; 
+    text-align: center; 
+    padding: 5%; 
+    background-color: rgb(235, 225, 225); 
+}
+.tools{
+   width: 100%; 
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+.project1-img{
+    margin: 0% 0%; 
+    grid-column: span 2 / auto;
+    text-align: left; 
+}
+.project1, .project2{
+    grid-column: span 2 / auto;
+}
+.project1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-gap: 10px;  */
+}
+.project1 h2{
+    grid-column: span 2 / auto;
+    text-align: center; 
+}
+.project1-img img{
+    width: 50%; 
+    
+   box-shadow: 0 3x 20px blue; 
+}
+.Google1{
+    text-align: left;  
+    padding: 0.5% 10%; 
+}
+.Google h3{
+    text-align: end; 
+}
+.Google p{
+    text-align: end;
+}
+}
+.project2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   
+}
+.view-project h4, .view-project h3{
+    margin: 10px;
+    font-size: 30px;  
+}
+
+.project1 h2{
+    text-align: center; 
+}
+.project1-img img{
+    width: 90%; 
+    height: 90%; 
+    margin-left: 11%; 
+}
+.project2 h3, .project2 a{
+    text-align: right; 
+}
+.project2-img img{
+    width: 90%; 
+    height: 90%; 
+    margin-right: 15%;
+} 
+footer{
+    padding:15px; 
+    margin-top: 50px; 
+    text-align: center; 
+    background-color: rgb(235, 225, 225); 
+}
+
+
+p, ul, h4{
+    color: rgb(117, 116, 116);
+    font-size: 110%; 
+    font-weight: 200px; 
+}
+span{
+    color: rgb(88, 88, 255); 
+    font-weight: bold; 
+}
+.projects a {
+    text-decoration: none; 
+}
+a span{
+   
+    color: rgb(117, 116, 116);
+    padding-bottom: 10px; 
+}
+.Rights h3{
+    text-align: center; 
+    font-size: 100%;  
+}
+.Rights p{
+    text-align: center; 
+    font-size:80%; 
+}
